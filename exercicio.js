@@ -26,4 +26,4 @@ const pessoa = {
 
  const chaves = ["nome","dataNascimento","carteiraIdentidade","email","telefone","cidade","estado","cpf","seguroSocial"]
 
- chaves.forEach(info => pessoa[info]==pessoa["cpf"] || pessoa[info]==pessoa["carteiraIdentidade"] ? console.log(pessoa[info].substring(0,4)) : console.log(pessoa[info]))
+ chaves.forEach(info => pessoa[info]==pessoa["cpf"] || pessoa[info]==pessoa["carteiraIdentidade"] ? console.log(`${info.toUpperCase()}: ` + pessoa[info].substring(0,4)) : console.log(`${info.toUpperCase()}: ` +pessoa[info]))
