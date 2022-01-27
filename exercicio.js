@@ -9,7 +9,12 @@ const pessoa = {
  }
 
 
-
+ //Usando a representação do objeto pessoa,
+ // foi solicitado que adicionássemos os campos
+ // seguro social e cpf no formato string. 
+ //Além disso, quando forem exibidas as informações da pessoa em um relatório,
+ // deverão aparecer somente os 4 primeiros dígitos do CPF 
+ //e da carteira de identidade.
 
 
  pessoa.cpf="15346626522-65"
@@ -17,7 +22,7 @@ const pessoa = {
 
 
 
- 
+
 
  const chaves = ["nome","dataNascimento","carteiraIdentidade","email","telefone","cidade","estado","cpf","seguroSocial"]
 
