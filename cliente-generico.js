@@ -14,3 +14,9 @@ function Cliente(nome,cpf,email,saldo){
 
 
 }
+
+
+const thiago = new Cliente("Thiago","700.700.700-70","thiago@email.com",100)
+
+console.log(thiago)
+
