@@ -7,9 +7,7 @@ const cliente = {
    
    
    }
-   
- //criando outro objeto dentro do objeto cliente
- // é um tipo de herença 
+
  
    cliente.dependentes = {
 
@@ -28,3 +26,8 @@ const cliente = {
     cliente.dependentes.nome = "Maria Eduarda"
 
     console.log(cliente.dependentes)
+
+
+       
+ //criando outro objeto dentro do objeto cliente
+ // é um tipo de herença 
