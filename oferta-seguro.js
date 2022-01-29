@@ -28,19 +28,22 @@ const cliente = {
         }
 
 
-        let relatorio = "";
+         //o metodo object.keys retorna as chaves  do objeto
+         //o metodo object.values retorna os valores dos objetos presentes 
+
+     
+         function oferecerSeguro(obj) {
+         const propsClientes = Object.keys(obj)
+
+            if(propsClientes.includes("docs")){
+
+                  console.log(`Oferta de seguro de vida para o  : ${obj.nome} `)
+                  
+            }
+
+             
+         } 
         
-        //percorre todo o objeto de forma dinamica
+          console.log(Object.values(cliente))
 
-        for (let info in cliente){
-            // valida se a info é um objeto ou uma function e então continua sem fazer nada, caso não seja exibe na tela
-          if(typeof cliente[info]==="object" || typeof cliente[info]==="function")
-          { 
-              continue
-          } else {
-          relatorio += `${info.toUpperCase()} :  ${cliente[info]} \n`
-          }
-        }
-
-
-        console.log(relatorio)
+         oferecerSeguro(cliente)
