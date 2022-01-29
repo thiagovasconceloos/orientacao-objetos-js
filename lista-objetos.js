@@ -24,4 +24,5 @@ const clientes = [ {
 
         const listaDocs =
         [...clientes[0].documentos]
+        console.table(listaDocs)
         console.log(listaDocs)
